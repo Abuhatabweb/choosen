@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.text-container{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #625f64;
+}
+
+input{
+border: none;
+background-color: white;
+border-radius: 5px;
+height: 100%;
+width: 90%;
+padding: 10px;
+font-size: large;
+}
+
+button{
+    width: 8%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #697bf8d1;
+}
+
+
+
+.task-div{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #625f64;
+}
+
+.task{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8e6eb;
+}
+
+.del{
+    width: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(241, 60, 60);
+}
+
+p{
+    width: 75%;
+    overflow-wrap: anywhere;
+}
+
+.choosen{
+    width: 40%;
+    height: 50px;
+    background-color: rgb(181, 192, 188);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choosen-div{
+    width: 80%;
+    margin: auto;
+    height: 50px;;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose{
+    background-color: #f11a1ad1;
+    color: antiquewhite;
+    margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .del{
+        width: 20%;
+        font-size: small;
+    }
+    button{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .choose{
+        width: 20%;
+    }
+    .choosen{
+        width: 70%;
+    }
+}
